@@ -1,0 +1,28 @@
+.top-bar, .footer {
+  background-color: lightblue;
+}
+
+* {
+  font-family: Helvetica, sans-serif;
+}
+
+main {
+  background-image: url("https://scontent-ort2-1.xx.fbcdn.net/t31.0-8/12916769_10154216696325809_4841384202171962890_o.jpg");
+  line-height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #e6e6e6;
+  background-size: cover;
+}
+
+.button {
+    border: white solid 3px;
+    background-color: transparent;
+    align-items: center;
+}
+
+a {
+  border: 3px solid white;
+  margin: 10px;
+  text-align: center;
+}

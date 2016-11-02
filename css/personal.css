@@ -1,0 +1,11 @@
+header {
+  background-color: lightsalmon;
+}
+
+* {
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  background-image: url("bgimg.jpg");
+}
