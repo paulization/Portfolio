@@ -66,6 +66,12 @@ main {
   background-size: cover;
   height: 460px;
   color: white;
+  overflow: scroll;
+}
+
+.maincontent p {
+  border: 3px solid white;
+  padding:  5%;
 }
 
 /************
@@ -78,4 +84,8 @@ footer {
 
 footer img {
   max-width: 60px;
+}
+
+footer .button {
+  border: 0px;
 }
