@@ -40,15 +40,21 @@ Main Section
 
 main {
   background-image: url("https://scontent-ort2-1.xx.fbcdn.net/t31.0-8/12916769_10154216696325809_4841384202171962890_o.jpg");
-  height: 460px; /* change later*/
+  height: 460px;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: #e6e6e6;
   background-size: cover;
 }
 
 #enter {
   margin: 200px 0;
+}
+
+.maindiv {
+  background: rgba(0, 0, 0, 0.3);
+  background-size: cover;
+  height: 460px;
+  color: white;
 }
 /************
 Footer
