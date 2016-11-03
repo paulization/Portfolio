@@ -67,6 +67,7 @@ main {
   height: 460px;
   color: white;
 }
+
 /************
 Footer
 *************/
@@ -77,8 +78,4 @@ footer {
 
 footer img {
   max-width: 60px;
-}
-
-.test {
-  : center;
 }
