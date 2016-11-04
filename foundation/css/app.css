@@ -38,11 +38,6 @@ header .button{
   border: white solid 3px;
 }
 
-#logo {
-  max-width: 100px;
-  margin: 0 auto;
-}
-
 /************
 NAV
 *************/
@@ -52,8 +47,15 @@ nav ul li {
 }
 
 .current {
-  background-color: green;
+  background-color: white;
+  color: lightblue;
 }
+
+#logo {
+  max-width: 100px;
+
+}
+
 /************
 Main Section
 *************/
@@ -67,8 +69,8 @@ main {
 }
 
 #enter {
-  margin: 200px 0;
   border: white solid 3px;
+  margin: 0 auto;
 }
 
 .maincontent {
@@ -96,6 +98,13 @@ h1, h5 {
 .workpiece {
   margin-top: 10px;
   margin-bottom: : 10px;
+  color: white;
+}
+
+#welcome {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  margin: 0 auto;
   color: white;
 }
 
