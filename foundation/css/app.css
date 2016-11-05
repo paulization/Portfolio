@@ -59,7 +59,9 @@ nav ul li {
 /************
 Main Section
 *************/
-
+label {
+  color: white;
+}
 main {
   background-image: url("https://scontent-ort2-1.xx.fbcdn.net/t31.0-8/12916769_10154216696325809_4841384202171962890_o.jpg");
   min-height: 460px;
@@ -106,6 +108,7 @@ h1, h5 {
   padding-bottom: 50px;
   margin: 0 auto;
   color: white;
+  font-size: 3em;
 }
 
 /************
@@ -118,4 +121,20 @@ footer {
 
 footer img {
   max-width: 60px;
+}
+
+/************
+Media Query
+*************/
+
+@media only screen and (max-width: 400px) {
+  #welcome {
+    font-size: 2.5em;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  #welcome {
+    font-size: 2em;
+  }
 }
