@@ -200,7 +200,6 @@ Media Query
 
 @media only screen and (max-width: 450px) {
   .button {
-  background-color: transparent;
   text-align: center;
   align-items: center;
   display: table-cell;
