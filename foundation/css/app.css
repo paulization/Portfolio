@@ -18,7 +18,7 @@ html {
 }
 
 .wrap {
-  max-width: 11000px;
+  max-width: 20000px;
   width: 90%;
   margin: 0 auto;
 }
@@ -32,15 +32,12 @@ Header
   align-content: center;
 }
 
-header {
-  padding: 20px;
-}
-
 .top-bar {
   background-color: lightblue;
 }
 
 header .button{
+  padding: 20px;
   border: white solid 3px;
 }
 
@@ -106,6 +103,7 @@ main {
 h1, h5 {
   margin: 0 auto;
 }
+
 
 .workpiece {
   margin-top: 10px;
