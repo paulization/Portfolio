@@ -73,7 +73,7 @@ label {
   color: white;
 }
 main {
-  background-image: url("bgimg.jpg");
+  background-image: url("img/bgimg.jpg");
   min-height: 460px;
   background-position: center;
   background-repeat: no-repeat;
@@ -126,7 +126,7 @@ h1, h5 {
 }
 
 .profilePic {
-  background: url("http://brandinginasia.com/wp-content/uploads/2016/09/Pineapple-Apple-Pen-Song-Branding-in-Asia-Magazine.jpg") no-repeat center;
+  background: url("img/profilepic.jpg") no-repeat center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
