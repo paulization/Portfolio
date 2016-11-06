@@ -73,7 +73,7 @@ label {
   color: white;
 }
 main {
-  background-image: url("img/bgimg.jpg");
+  background-image: url("bgimg/bgimg.jpg");
   min-height: 460px;
   background-position: center;
   background-repeat: no-repeat;
@@ -126,7 +126,7 @@ h1, h5 {
 }
 
 .profilePic {
-  background: url("img/profilepic.jpg") no-repeat center;
+  background: url("bgimg/profilepic.jpg") no-repeat center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -147,19 +147,19 @@ h1, h5 {
 }
 
 #work1 {
-  background-image: url("img/alphabet_poster.jpg");
+  background-image: url("bgimg/alphabet_poster.jpg");
 }
 
 #work2 {
-  background-image: url("img/Bangkok.jpg");
+  background-image: url("bgimg/Bangkok.jpg");
 }
 
 #work3 {
-  background-image: url("img/gravity.png");
+  background-image: url("bgimg/gravity.png");
 }
 
 #work4 {
-  background-image: url("img/alphabet_poster.jpg");
+  background-image: url("bgimg/alphabet_poster.jpg");
 }
 
 .submit {
