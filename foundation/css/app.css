@@ -7,8 +7,14 @@ html {
 
 .button {
   background-color: transparent;
+  text-align: center;
   align-items: center;
   margin: 5px;
+  display: table-cell;
+}
+.textCenter {
+  text-align: center;
+  width: 100%;
 }
 
 .wrap {
@@ -51,6 +57,10 @@ nav ul li {
   color: lightblue;
 }
 
+.bypass-current {
+  background: lightblue;
+}
+
 #logo {
   max-width: 100px;
 
@@ -63,7 +73,7 @@ label {
   color: white;
 }
 main {
-  background-image: url("https://scontent-ort2-1.xx.fbcdn.net/t31.0-8/12916769_10154216696325809_4841384202171962890_o.jpg");
+  background-image: url("bgimg.jpg");
   min-height: 460px;
   background-position: center;
   background-repeat: no-repeat;
@@ -99,7 +109,11 @@ h1, h5 {
 
 .workpiece {
   margin-top: 10px;
-  margin-bottom: : 10px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.workpiece a {
   color: white;
 }
 
@@ -111,9 +125,48 @@ h1, h5 {
   font-size: 3em;
 }
 
-fieldset {
-  border: 3px solid white;
+.profilePic {
+  background: url("http://brandinginasia.com/wp-content/uploads/2016/09/Pineapple-Apple-Pen-Song-Branding-in-Asia-Magazine.jpg") no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 16px;
 }
+
+.divIsImage {
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 16px;
+  width: auto;
+  height: 153px;
+}
+
+#work1 {
+  background-image: url("img/alphabet_poster.jpg");
+}
+
+#work2 {
+  background-image: url("img/Bangkok.jpg");
+}
+
+#work3 {
+  background-image: url("img/gravity.png");
+}
+
+#work4 {
+  background-image: url("img/alphabet_poster.jpg");
+}
+
+.submit {
+  border: 3px solid white;
+  border-radius: 3px;
+}
+
 /************
 Footer
 *************/
@@ -125,7 +178,10 @@ footer {
 footer img {
   max-width: 60px;
 }
-
+.socialLink {
+  padding: 0;
+  margin: auto;
+}
 /************
 Media Query
 *************/
@@ -139,5 +195,36 @@ Media Query
 @media only screen and (max-width: 330px) {
   #welcome {
     font-size: 2em;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .button {
+  background-color: transparent;
+  text-align: center;
+  align-items: center;
+  display: table-cell;
+}
+  .socialLink {
+    padding: 0;
+    margin: 0;
+    height: 100px;
+    width: 100px;
+  }
+  .socialLink img {
+    padding: 0;
+    margin: 0;
+    max-width:100%;
+    max-height:100%;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .profilePic {
+    display: block;
+    width: auto;
+    height: 400px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 0px;
   }
 }
